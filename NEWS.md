@@ -14,3 +14,8 @@
 
 * removed usage of paste() function in error handling functions
 
+# scATAC.Explorer 1.12.0
+
+* corrected a bug when searching in-between years
+* added h5ad support to saveATAC()
+* added more examples in the help documentation for queryATAC()
