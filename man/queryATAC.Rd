@@ -80,10 +80,6 @@ res <- queryATAC(accession = "GSE129785")
 ## Retrieve the metadata of datasets between 2016 and 2020
 res = queryATAC(year = "2016-2020", metadata_only = TRUE)
 
-## From the table of datasets between 2016 and 2020,
-## retrieve the dataset on the third row.
-res = queryATAC(year = "2016-2020")[[3]]
-
 ## Retrieve a filtered metadata table that only shows mouse
 ## datasets derived from blood cells with cell type annotations
 res_mus <- queryATAC(has_cell_type_annotation = TRUE, 
