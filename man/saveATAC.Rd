@@ -4,12 +4,14 @@
 \alias{saveATAC}
 \title{A function to save a scATAC-seq dataset stored in a SingleCellExperiment}
 \usage{
-saveATAC(object, outdir)
+saveATAC(object, outdir, format = "mtx")
 }
 \arguments{
 \item{object}{The SingleCellExperiment object to be written to disk, this should be an individual dataset returned by queryATAC.}
 
 \item{outdir}{The directory to save the data in, the directory should not exist yet.}
+
+\item{format}{The format to save the data in, the default is Matrix Market File Format. Alternative format is h5ad.}
 }
 \value{
 Nothing
