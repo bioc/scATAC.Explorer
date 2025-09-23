@@ -2,11 +2,11 @@ Package: scATAC.Explorer
 Title: 
     A Collection of Single-cell ATAC Sequencing Datasets and 
     Corresponding Metadata 
-Version: 1.14.0
+Version: 1.14.1
 Authors@R: 
     c(person(given="Arrian",
             family="Gibson-Khademi",
-            role = c("aut","cre"),
+            role = c("aut"),
             email="agibsonk@uwo.ca"),
     person(given = "Erik",
             family = "Christensen",
@@ -14,7 +14,7 @@ Authors@R:
             email = "echris3@uwo.ca"),
     person(given = "Jonathan",
 	    family = "Wang",
-	    role = c("aut"),
+	    role = c("aut","cre"),
   	    email = "jwan2633@uwo.ca"),
     person(given="Parisa",
             family="Shooshtari",
